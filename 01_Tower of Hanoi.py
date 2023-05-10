@@ -1,4 +1,6 @@
-'''TOWER OF HANOI'''
+'''TOWER OF HANOI
+   Rules: Only one disk can transforn in one step.
+   Smaller disks are always kept on  larger disk.'''
 
 
 def tower_of_hanoi(disk, source, helper, destination):
