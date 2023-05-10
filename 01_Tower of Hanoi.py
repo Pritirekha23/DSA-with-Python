@@ -10,7 +10,7 @@ def tower_of_hanoi(disk, source, helper, destination):
     tower_of_hanoi(disk-1, helper, source, destination)
 
 disk=int(input('Enter the number of disks::'))
-tower_of_hanoi(3, 'A', 'B', 'C')
+tower_of_hanoi(disk, 'A', 'B', 'C')
 
 '''
 output:
