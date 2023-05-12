@@ -17,7 +17,7 @@ def push():
     if len(stack)==n:
         print('stack is full')
     else:
-        data=input('Enter the data::')
+        data=int(input('Enter the data::'))
         stack.append(data)
         
     
@@ -96,7 +96,7 @@ Select the operations ::
  5.Exit
 
 Choose any one of the above operations::1
-Enter the data::priti
+Enter the data::10
 Select the operations ::
 1.push
  2.pop
@@ -114,7 +114,7 @@ Select the operations ::
  5.Exit
 
 Choose any one of the above operations::1
-Enter the data::0.3
+Enter the data::233
 Select the operations ::
 1.push
  2.pop
@@ -159,7 +159,7 @@ Select the operations ::
  5.Exit
 
 Choose any one of the above operations::3
-Present elements in the stack are: ['priti', '45', '0.3', '65']
+Present elements in the stack are: [10, 45, 233, 65]
 Select the operations ::
 1.push
  2.pop
