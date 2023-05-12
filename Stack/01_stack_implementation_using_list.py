@@ -19,7 +19,7 @@ def push():
     print('Present elements in the stack are:',stack)
     
 def pop():
-    if not stack:
+    if stack==[]:
         print('Stack is Empty')
     else:
         a=stack.pop()
