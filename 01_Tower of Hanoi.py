@@ -1,8 +1,8 @@
-'''TOWER OF HANOI
-   Rules: Only one disk can transforn in one step.
-   Smaller disks are always kept on  larger disk.'''
-
-
+'''TOWER OF HANOI::
+       Rules::Only one disk can transforn in one step.
+              Smaller disks are always kept on  larger disk.'''
+              
+              
 def tower_of_hanoi(disk, source, helper, destination):
     if disk == 1:
         print(f'Move disk 1 from tower {source} to tower {destination}')
@@ -13,6 +13,7 @@ def tower_of_hanoi(disk, source, helper, destination):
 
 disk=int(input('Enter the number of disks::'))
 tower_of_hanoi(disk, 'A', 'B', 'C')
+
 
 '''
 output:
