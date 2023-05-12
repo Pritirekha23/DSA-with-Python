@@ -40,7 +40,7 @@ while True:
     
     
     
- '''OUTPUT::
+'''OUTPUT::
  Select the operations :: 
 1.push 
  2.pop
@@ -119,3 +119,8 @@ Select the operations ::
 
 Select any one of the above operations::3 
  '''   
+ 
+ 
+ 
+ 
+ 
