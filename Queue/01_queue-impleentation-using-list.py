@@ -12,7 +12,7 @@ def enQueue():
     
 def deQueue():
     if Q==[]:
-        print('Queue is empty:')
+        print('Queue is empty')
     else:
         e=Q.pop(0)
         print(f'{e} is removed from the Queue')
@@ -53,7 +53,7 @@ Select the operation
  4.display
  5.Exit
 Choose any one from the above:2
-Queue is empty:
+Queue is empty
 Select the operation 
  1.enqueue
  2.deQueue
