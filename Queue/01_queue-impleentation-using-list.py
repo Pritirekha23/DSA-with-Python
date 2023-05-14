@@ -19,10 +19,10 @@ def deQueue():
         
         
 def front():
-    if Q==[]:
-        print('Queue is Empty')
-    else:
+    if Q!=[]:
         print(Q[0])
+    else:
+        print('Queue is Empty')
         
 def display():
     print('Elements present in the Queue are:',Q)
@@ -44,77 +44,9 @@ while True:
     else:
         print('Invalid choice please choose a valid option')
         
-        
-'''output
-Limit of Queue:3
+'''output:
+Limit of Queue:2
 Select the operation 
- 1.enqueue
- 2.deQueue
- 3.front
- 4.display
- 5.Exit
-Choose any one from the above:1
-Enter the Element:27
-27 is added to the Queue
-Select the operation 
- 1.enqueue
- 2.deQueue
- 3.front
- 4.display
- 5.Exit
-Choose any one from the above:1
-Enter the Element:356
-356 is added to the Queue
-Select the operation 
- 1.enqueue
- 2.deQueue
- 3.front
- 4.display
- 5.Exit
-Choose any one from the above:1
-Enter the Element:53
-53 is added to the Queue
-Select the operation 
- 1.enqueue
- 2.deQueue
- 3.front
- 4.display
- 5.Exit
-Choose any one from the above:1
-Queue is full
-Select the operation
- 1.enqueue
- 2.deQueue
- 3.front
- 4.display
- 5.Exit
-Choose any one from the above:3
-27
-Select the operation
- 1.enqueue
- 2.deQueue
- 3.front
- 4.display
- 5.Exit
-Choose any one from the above:2
-27 is removed from the Queue
-Select the operation
- 1.enqueue
- 2.deQueue
- 3.front
- 4.display
- 5.Exit
-Choose any one from the above:2
-356 is removed from the Queue
-Select the operation
- 1.enqueue
- 2.deQueue
- 3.front
- 4.display
- 5.Exit
-Choose any one from the above:2
-53 is removed from the Queue
-Select the operation
  1.enqueue
  2.deQueue
  3.front
@@ -122,7 +54,7 @@ Select the operation
  5.Exit
 Choose any one from the above:2
 Queue is empty:
-Select the operation
+Select the operation 
  1.enqueue
  2.deQueue
  3.front
@@ -130,33 +62,24 @@ Select the operation
  5.Exit
 Choose any one from the above:3
 Queue is Empty
-Select the operation
+Select the operation 
  1.enqueue
  2.deQueue
  3.front
  4.display
  5.Exit
 Choose any one from the above:1
-Enter the Element:45
-45 is added to the Queue
-Select the operation
+Enter the Element:122
+122 is added to the Queue
+Select the operation 
  1.enqueue
  2.deQueue
  3.front
  4.display
  5.Exit
 Choose any one from the above:1
-Enter the Element:43
-43 is added to the Queue
-Select the operation
- 1.enqueue
- 2.deQueue
- 3.front
- 4.display
- 5.Exit
-Choose any one from the above:1
-Enter the Element:53
-53 is added to the Queue
+Enter the Element:343
+343 is added to the Queue
 Select the operation
  1.enqueue
  2.deQueue
@@ -164,11 +87,19 @@ Select the operation
  4.display
  5.Exit
 Choose any one from the above:4
-Elements present in the Queue are: [45, 43, 53]
+Elements present in the Queue are: [122, 343]
 Select the operation
  1.enqueue
  2.deQueue
  3.front
  4.display
  5.Exit
-Choose any one from the above:5'''
+Choose any one from the above:3
+122
+Select the operation
+ 1.enqueue
+ 2.deQueue
+ 3.front
+ 4.display
+ 5.Exit
+Choose any one from the above:5'''        
